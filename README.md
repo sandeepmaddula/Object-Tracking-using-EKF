@@ -20,10 +20,13 @@ Compile: cmake .. && make
 On windows, you may need to run: cmake .. -G "Unix Makefiles" && make
 Run it: ./ExtendedKF path/to/input.txt path/to/output.txt. You can find some sample inputs in 'data/'.
 eg. ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt
+
+
 Editor Settings
 We've purposefully kept editor configuration files out of this repo in order to keep it as simple and environment agnostic as possible. However, we recommend using the following settings:
-
 indent using spaces
 set tab width to 2 spaces (keeps the matrices in source code aligned)
+
+
 Code Style
 Please (do your best to) stick to Google's C++ style guide.
